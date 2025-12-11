@@ -3,19 +3,18 @@
         "host": "localhost",
         "port": 5432,
         "database": "SevenLoops",
-        "user": "abdo",
-        "password": "abdo123"
+        "user": "postgres",
+        "password": "P@$$w0rd"
     },
     "sqlserver": {
-        "driver": "{ODBC Driver 18 for SQL Server}",
-        "server": "localhost,1433",
+        "driver": "{ODBC Driver 17 for SQL Server}",
+        "server": "joba",
         "database": "SevenLoops",
         "uid": "sa",
-        "pwd": "admin123",
-        "encrypt": "no"
+        "pwd": "P@$$w0rd",
+        "encrypt": "yes"
     },
-    "schemas": ["public"],
+    "schemas": ["Sh-SevenLoops"],
     "batch_size": 2000,
     "export_dir": "./pg_ddl_exports"
-
 }
