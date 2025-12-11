@@ -3,7 +3,7 @@
         "host": "localhost",
         "port": 5432,
         "database": "SevenLoops",
-        "user": "C##abdo",
+        "user": "abdo",
         "password": "abdo123"
     },
     "sqlserver": {
@@ -17,4 +17,5 @@
     "schemas": ["public"],
     "batch_size": 2000,
     "export_dir": "./pg_ddl_exports"
+
 }
